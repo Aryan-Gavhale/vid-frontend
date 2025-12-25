@@ -731,6 +731,7 @@ export default function VideoEditorDashboard() {
                             <FileText className="h-6 w-6" />
                           </div>
                           <div className="flex-grow min-w-0">
+
                             <h3 className="font-medium truncate">{order.gig?.title || order.title || 'Untitled Order'}</h3>
                             <p className={`text-sm ${darkMode ? "text-gray-400" : "text-gray-500"}`}>
                               Client: {order.client?.firstname || ''} {order.client?.lastname || ''}
